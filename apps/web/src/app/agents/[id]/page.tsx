@@ -289,16 +289,17 @@ export default function AgentBuilderPage({ params }: { params: { id: string } })
               <div className="space-y-5">
                 <div>
                   <label className="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
-                    LLM Engine
+                    LLM Engine (Intelligence & Reasoning)
                   </label>
                   <select
                     value={model}
                     onChange={(e) => setModel(e.target.value)}
                     className="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-2.5 text-xs text-slate-200 focus:outline-none focus:border-violet-500/60"
                   >
-                    <option value="gpt-4o">OpenAI GPT-4o (Recommended for Low Latency Voice)</option>
+                    <option value="gemini-1.5-flash">Google Gemini 1.5 Flash (Ultra-Low Latency & High Speed Voice AI)</option>
+                    <option value="gemini-1.5-pro">Google Gemini 1.5 Pro (Deep Context & Complex Multi-turn Reasoning)</option>
+                    <option value="gpt-4o">OpenAI GPT-4o</option>
                     <option value="claude-3-5-sonnet">Anthropic Claude 3.5 Sonnet</option>
-                    <option value="gemini-1.5-pro">Google Gemini 1.5 Pro</option>
                   </select>
                 </div>
 
