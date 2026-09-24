@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/shared" },
+    { "path": "./packages/database" },
+    { "path": "./packages/auth" },
+    { "path": "./packages/telephony" },
+    { "path": "./packages/voice" },
+    { "path": "./packages/ai" },
+    { "path": "./packages/workflows" },
+    { "path": "./packages/integrations" },
+    { "path": "./apps/api" },
+    { "path": "./apps/worker" }
+  ]
+}

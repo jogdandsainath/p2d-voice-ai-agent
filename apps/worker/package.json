@@ -1,0 +1,23 @@
+{
+  "name": "@p2d/worker",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@p2d/ai": "*",
+    "@p2d/database": "*",
+    "@p2d/integrations": "*",
+    "@p2d/shared": "*",
+    "@p2d/workflows": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.15.0",
+    "typescript": "^5.5.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@p2d/api",
+  "version": "1.0.0",
+  "main": "./dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@fastify/swagger": "^8.14.0",
+    "@fastify/swagger-ui": "^3.0.0",
+    "@fastify/websocket": "^10.0.1",
+    "@p2d/ai": "*",
+    "@p2d/auth": "*",
+    "@p2d/database": "*",
+    "@p2d/integrations": "*",
+    "@p2d/shared": "*",
+    "@p2d/telephony": "*",
+    "@p2d/voice": "*",
+    "@p2d/workflows": "*",
+    "fastify": "^4.27.0",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/ws": "^8.5.10",
+    "tsx": "^4.15.0",
+    "typescript": "^5.5.0"
+  }
+}

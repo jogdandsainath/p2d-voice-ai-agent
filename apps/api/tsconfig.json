@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*"],
+  "references": [
+    { "path": "../../packages/shared" },
+    { "path": "../../packages/auth" },
+    { "path": "../../packages/database" },
+    { "path": "../../packages/telephony" },
+    { "path": "../../packages/voice" },
+    { "path": "../../packages/ai" },
+    { "path": "../../packages/workflows" },
+    { "path": "../../packages/integrations" }
+  ]
+}
