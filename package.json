@@ -11,6 +11,7 @@
     "dev": "npm run dev --workspaces --if-present",
     "build": "npm run build --workspaces --if-present",
     "test": "vitest run",
+    "test:call": "tsx scripts/test-single-call.ts",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "typecheck": "tsc --build tsconfig.json",
