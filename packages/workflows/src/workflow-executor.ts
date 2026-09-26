@@ -5,7 +5,7 @@ import {
   WorkflowExecutionStep,
   logger,
 } from '@p2d/shared';
-import { WorkflowCompiler } from './workflow-compiler.js';
+import { WorkflowCompiler } from './workflow-compiler';
 
 export interface WorkflowExecutionContext {
   organizationId: string;

@@ -6,6 +6,7 @@ import { Navbar } from '@/components/Navbar';
 import {
   Users,
   PhoneCall,
+  Phone,
   CheckCircle2,
   Clock,
   ArrowUpRight,

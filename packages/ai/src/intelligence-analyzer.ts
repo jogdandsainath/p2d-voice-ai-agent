@@ -4,8 +4,8 @@ import {
   ActionItem,
   logger,
 } from '@p2d/shared';
-import { LLMProvider } from './llm.provider.js';
-import { MockLLMProvider } from './mock.provider.js';
+import { LLMProvider } from './llm.provider';
+import { MockLLMProvider } from './mock.provider';
 
 export interface AnalysisResult {
   analysis: ConversationAnalysis;

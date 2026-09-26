@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { IntelligenceAnalyzer, MockLLMProvider } from '../packages/ai/src/index.js';
+import { IntelligenceAnalyzer, MockLLMProvider } from '../packages/ai/src/index';
 import { TranscriptMessage } from '@p2d/shared';
 
 describe('Post-Call Conversation Intelligence Pipeline', () => {

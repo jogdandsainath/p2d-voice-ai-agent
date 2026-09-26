@@ -1,4 +1,4 @@
-import { TelephonyProvider, TelephonyCallParams, TelephonyCallResponse } from './telephony.provider.js';
+import { TelephonyProvider, TelephonyCallParams, TelephonyCallResponse } from './telephony.provider';
 import { InboundCallEvent, logger } from '@p2d/shared';
 
 export class TwilioTelephonyAdapter implements TelephonyProvider {

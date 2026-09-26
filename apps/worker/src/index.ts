@@ -1,4 +1,4 @@
-import { backgroundWorker } from './worker.js';
+import { backgroundWorker } from './worker';
 import { logger } from '@p2d/shared';
 
 async function startWorker() {

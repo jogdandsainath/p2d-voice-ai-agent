@@ -1,4 +1,4 @@
-import { LLMProvider, GenerateTurnParams, GenerateTurnResponse } from './llm.provider.js';
+import { LLMProvider, GenerateTurnParams, GenerateTurnResponse } from './llm.provider';
 import { logger } from '@p2d/shared';
 
 export class OllamaProvider implements LLMProvider {

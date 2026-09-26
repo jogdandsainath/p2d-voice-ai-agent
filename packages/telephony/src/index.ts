@@ -1,14 +1,14 @@
-export * from './telephony.provider.js';
-export * from './twilio.adapter.js';
-export * from './india-sip.adapter.js';
-export * from './plivo.adapter.js';
-export * from './mock.adapter.js';
+export * from './telephony.provider';
+export * from './twilio.adapter';
+export * from './india-sip.adapter';
+export * from './plivo.adapter';
+export * from './mock.adapter';
 
-import { TelephonyProvider } from './telephony.provider.js';
-import { TwilioTelephonyAdapter } from './twilio.adapter.js';
-import { IndiaSipTelephonyAdapter } from './india-sip.adapter.js';
-import { PlivoTelephonyAdapter } from './plivo.adapter.js';
-import { MockTelephonyAdapter } from './mock.adapter.js';
+import { TelephonyProvider } from './telephony.provider';
+import { TwilioTelephonyAdapter } from './twilio.adapter';
+import { IndiaSipTelephonyAdapter } from './india-sip.adapter';
+import { PlivoTelephonyAdapter } from './plivo.adapter';
+import { MockTelephonyAdapter } from './mock.adapter';
 
 export class TelephonyFactory {
   static getProvider(providerName = 'twilio'): TelephonyProvider {

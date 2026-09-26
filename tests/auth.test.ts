@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { JwtService, RbacService } from '../packages/auth/src/index.js';
+import { JwtService, RbacService } from '../packages/auth/src/index';
 
 describe('Auth & RBAC Module', () => {
   const jwt = new JwtService('test_jwt_secret_must_be_32_bytes_long_123');

@@ -1,20 +1,20 @@
-export * from './llm.provider.js';
-export * from './openai.provider.js';
-export * from './gemini.provider.js';
-export * from './anthropic.provider.js';
-export * from './groq.provider.js';
-export * from './ollama.provider.js';
-export * from './mock.provider.js';
-export * from './conversation-engine.js';
-export * from './intelligence-analyzer.js';
+export * from './llm.provider';
+export * from './openai.provider';
+export * from './gemini.provider';
+export * from './anthropic.provider';
+export * from './groq.provider';
+export * from './ollama.provider';
+export * from './mock.provider';
+export * from './conversation-engine';
+export * from './intelligence-analyzer';
 
-import { LLMProvider } from './llm.provider.js';
-import { OpenAIProvider } from './openai.provider.js';
-import { GeminiProvider } from './gemini.provider.js';
-import { AnthropicProvider } from './anthropic.provider.js';
-import { GroqProvider } from './groq.provider.js';
-import { OllamaProvider } from './ollama.provider.js';
-import { MockLLMProvider } from './mock.provider.js';
+import { LLMProvider } from './llm.provider';
+import { OpenAIProvider } from './openai.provider';
+import { GeminiProvider } from './gemini.provider';
+import { AnthropicProvider } from './anthropic.provider';
+import { GroqProvider } from './groq.provider';
+import { OllamaProvider } from './ollama.provider';
+import { MockLLMProvider } from './mock.provider';
 
 export class LLMFactory {
   static getProvider(providerName = 'gemini', modelName?: string): LLMProvider {

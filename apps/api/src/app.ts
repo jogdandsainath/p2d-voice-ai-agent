@@ -5,16 +5,16 @@ import swaggerUi from '@fastify/swagger-ui';
 import websocket from '@fastify/websocket';
 import { AppError, logger } from '@p2d/shared';
 
-import { authRoutes } from './routes/auth.routes.js';
-import { agentRoutes } from './routes/agent.routes.js';
-import { phoneRoutes } from './routes/phone.routes.js';
-import { callRoutes } from './routes/call.routes.js';
-import { conversationRoutes } from './routes/conversation.routes.js';
-import { workflowRoutes } from './routes/workflow.routes.js';
-import { integrationRoutes } from './routes/integration.routes.js';
-import { analyticsRoutes } from './routes/analytics.routes.js';
-import { telephonyWebhookRoutes } from './routes/telephony-webhook.routes.js';
-import { simulatorRoutes } from './routes/simulator.routes.js';
+import { authRoutes } from './routes/auth.routes';
+import { agentRoutes } from './routes/agent.routes';
+import { phoneRoutes } from './routes/phone.routes';
+import { callRoutes } from './routes/call.routes';
+import { conversationRoutes } from './routes/conversation.routes';
+import { workflowRoutes } from './routes/workflow.routes';
+import { integrationRoutes } from './routes/integration.routes';
+import { analyticsRoutes } from './routes/analytics.routes';
+import { telephonyWebhookRoutes } from './routes/telephony-webhook.routes';
+import { simulatorRoutes } from './routes/simulator.routes';
 
 export function buildApp(): FastifyInstance {
   const app = fastify({

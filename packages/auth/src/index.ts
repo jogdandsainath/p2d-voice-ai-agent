@@ -1,3 +1,3 @@
-export * from './jwt.service.js';
-export * from './crypto.service.js';
-export * from './rbac.service.js';
+export * from './jwt.service';
+export * from './crypto.service';
+export * from './rbac.service';

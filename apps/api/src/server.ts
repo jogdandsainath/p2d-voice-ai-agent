@@ -1,4 +1,4 @@
-import { buildApp } from './app.js';
+import { buildApp } from './app';
 import { logger } from '@p2d/shared';
 
 const PORT = parseInt(process.env.PORT || '4000', 10);

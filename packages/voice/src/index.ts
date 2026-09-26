@@ -1,16 +1,16 @@
-export * from './voice.provider.js';
-export * from './elevenlabs.adapter.js';
-export * from './cartesia.adapter.js';
-export * from './deepgram.adapter.js';
-export * from './openai.adapter.js';
-export * from './mock.adapter.js';
+export * from './voice.provider';
+export * from './elevenlabs.adapter';
+export * from './cartesia.adapter';
+export * from './deepgram.adapter';
+export * from './openai.adapter';
+export * from './mock.adapter';
 
-import { VoiceProvider } from './voice.provider.js';
-import { ElevenLabsVoiceAdapter } from './elevenlabs.adapter.js';
-import { CartesiaVoiceAdapter } from './cartesia.adapter.js';
-import { DeepgramVoiceAdapter } from './deepgram.adapter.js';
-import { OpenAIVoiceAdapter } from './openai.adapter.js';
-import { MockVoiceAdapter } from './mock.adapter.js';
+import { VoiceProvider } from './voice.provider';
+import { ElevenLabsVoiceAdapter } from './elevenlabs.adapter';
+import { CartesiaVoiceAdapter } from './cartesia.adapter';
+import { DeepgramVoiceAdapter } from './deepgram.adapter';
+import { OpenAIVoiceAdapter } from './openai.adapter';
+import { MockVoiceAdapter } from './mock.adapter';
 
 export class VoiceFactory {
   static getProvider(providerName = 'elevenlabs'): VoiceProvider {

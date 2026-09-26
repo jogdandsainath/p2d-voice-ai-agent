@@ -1,2 +1,2 @@
-export * from './workflow-compiler.js';
-export * from './workflow-executor.js';
+export * from './workflow-compiler';
+export * from './workflow-executor';

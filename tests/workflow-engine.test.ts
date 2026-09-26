@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { WorkflowExecutor, WorkflowCompiler } from '../packages/workflows/src/index.js';
+import { WorkflowExecutor, WorkflowCompiler } from '../packages/workflows/src/index';
 import { Workflow } from '@p2d/shared';
 
 describe('Workflow Builder & Graph Execution Engine', () => {

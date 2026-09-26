@@ -4,7 +4,7 @@ import {
   TwilioTelephonyAdapter,
   IndiaSipTelephonyAdapter,
   MockTelephonyAdapter,
-} from '../packages/telephony/src/index.js';
+} from '../packages/telephony/src/index';
 
 describe('Telephony Provider Abstraction & Adapters', () => {
   it('should instantiate appropriate provider via factory', () => {

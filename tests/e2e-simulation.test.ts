@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
-import { buildApp } from '../apps/api/src/app.js';
+import { buildApp } from '../apps/api/src/app';
 import { FastifyInstance } from 'fastify';
 
 describe('P2D Voice AI Platform - End-to-End Master Lifecycle Verification', () => {

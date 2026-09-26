@@ -5,9 +5,9 @@ import {
   TranscriptMessage,
   logger,
 } from '@p2d/shared';
-import { LLMProvider, ChatTurnMessage } from './llm.provider.js';
+import { LLMProvider, ChatTurnMessage } from './llm.provider';
 import { VoiceProvider } from '@p2d/voice';
-import { MockLLMProvider } from './mock.provider.js';
+import { MockLLMProvider } from './mock.provider';
 
 export interface ConversationSessionOptions {
   conversationId: string;

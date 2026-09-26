@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { VoiceFactory, ElevenLabsVoiceAdapter, MockVoiceAdapter } from '../packages/voice/src/index.js';
+import { VoiceFactory, ElevenLabsVoiceAdapter, MockVoiceAdapter } from '../packages/voice/src/index';
 
 describe('Voice Provider Abstraction & Adapters', () => {
   it('should instantiate appropriate voice provider via factory', () => {

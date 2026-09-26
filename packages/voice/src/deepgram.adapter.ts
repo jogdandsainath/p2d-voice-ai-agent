@@ -1,4 +1,4 @@
-import { VoiceProvider } from './voice.provider.js';
+import { VoiceProvider } from './voice.provider';
 import { VoiceMetadata, VoiceSettings, logger } from '@p2d/shared';
 
 export class DeepgramVoiceAdapter implements VoiceProvider {

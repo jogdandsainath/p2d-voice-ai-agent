@@ -6,6 +6,7 @@ export type P2DEventType =
   | 'recording.created'
   | 'transcript.created'
   | 'conversation.analyzed'
+  | 'conversation.completed'
   | 'action.detected'
   | 'action.completed'
   | 'workflow.started'

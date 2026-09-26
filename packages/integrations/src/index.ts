@@ -1,2 +1,2 @@
-export * from './http-connector.js';
-export * from './p2d-event-bus.js';
+export * from './http-connector';
+export * from './p2d-event-bus';

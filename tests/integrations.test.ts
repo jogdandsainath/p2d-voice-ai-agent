@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { HttpConnector, P2DEventBus } from '../packages/integrations/src/index.js';
+import { HttpConnector, P2DEventBus } from '../packages/integrations/src/index';
 import { Integration } from '@p2d/shared';
 
 describe('Integrations Framework & P2D Workforce Event Bus', () => {

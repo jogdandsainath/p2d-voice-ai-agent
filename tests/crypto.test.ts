@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { CryptoService } from '../packages/auth/src/crypto.service.js';
+import { CryptoService } from '../packages/auth/src/crypto.service';
 
 describe('AES-256-GCM CryptoService Vault', () => {
   const cryptoService = new CryptoService();

@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { LLMFactory, AnthropicProvider, GeminiProvider, GroqProvider, OllamaProvider } from '../packages/ai/src/index.js';
-import { VoiceFactory, CartesiaVoiceAdapter, DeepgramVoiceAdapter } from '../packages/voice/src/index.js';
-import { TelephonyFactory, PlivoTelephonyAdapter } from '../packages/telephony/src/index.js';
+import { LLMFactory, AnthropicProvider, GeminiProvider, GroqProvider, OllamaProvider } from '../packages/ai/src/index';
+import { VoiceFactory, CartesiaVoiceAdapter, DeepgramVoiceAdapter } from '../packages/voice/src/index';
+import { TelephonyFactory, PlivoTelephonyAdapter } from '../packages/telephony/src/index';
 
 describe('Multi-Vendor Adapter Suite (Gemini, Claude, OpenAI, Groq, Cartesia, Deepgram, Plivo)', () => {
   // 1. LLM Vendor Factory

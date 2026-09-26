@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { ConversationSession, MockLLMProvider } from '../packages/ai/src/index.js';
-import { MockVoiceAdapter } from '../packages/voice/src/index.js';
+import { ConversationSession, MockLLMProvider } from '../packages/ai/src/index';
+import { MockVoiceAdapter } from '../packages/voice/src/index';
 import { Agent, AgentVersion } from '@p2d/shared';
 
 describe('Conversation Engine & Real-Time Dialogue', () => {
