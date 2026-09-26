@@ -28,8 +28,9 @@ import {
 const VOICES = [
   { id: '21m00Tcm4TlvDq8ikWAM', name: 'Rachel (Enterprise SDR)', provider: 'ElevenLabs', language: 'en-US' },
   { id: 'AZnzlk1XvdvUeBnXmlld', name: 'Domi (Outbound Specialist)', provider: 'ElevenLabs', language: 'en-US' },
-  { id: 'ErXwobaYiN019PkySvjV', name: 'Antoni (Consultative Executive)', provider: 'ElevenLabs', language: 'en-US' },
-  { id: 'alloy', name: 'Alloy (OpenAI Standard)', provider: 'OpenAI', language: 'en-US' },
+  { id: 'cartesia_sonic_sarah', name: 'Sarah (Ultra-Fast Sub-100ms)', provider: 'Cartesia Sonic', language: 'en-US' },
+  { id: 'aura-asteria-en', name: 'Asteria (Natural Dialogue)', provider: 'Deepgram Aura', language: 'en-US' },
+  { id: 'alloy', name: 'Alloy (OpenAI Standard)', provider: 'OpenAI Audio', language: 'en-US' },
 ];
 
 export default function AgentBuilderPage({ params }: { params: { id: string } }) {
